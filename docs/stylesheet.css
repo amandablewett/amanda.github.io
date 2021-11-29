@@ -6,7 +6,7 @@
 }
 nav {
     float: left;
-    height: 100vh;
+    height: 75vh;
     background-color: grey;
     padding: 15px;
     width: 20%;
@@ -31,7 +31,7 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-li a {
+ul li a {
     background-color: white;
     padding: 20px;
     margin: 25px;
@@ -61,7 +61,7 @@ h3 a:hover{
     box-shadow: black -5px 5px;
 }
 
-li a:hover {
+ul li a:hover {
     cursor: pointer;
     background-color: lightgray;
     box-shadow: black -10px 15px;
@@ -82,9 +82,7 @@ h2{
 p{
     margin: 25px;
     width: auto;
-    padding: 5px;
 }
-
 img {
     float: left;
     border: 10px solid darkslategray;
@@ -92,5 +90,15 @@ img {
     width: 25%;
     margin-left: 20%;
     margin-right: 20%;
+}
+ol li{
+    padding: 10px 10px 10px 0px;
+}
+p img{
+    width: 15%;
+    margin: 10px;
+}
+.all{
+    width: 25%;
 }
 
